@@ -8,5 +8,5 @@
   * Need to reset allpics[] each time 
 
 #demo
-* ambermirza.github.io/photoalbum/
+* http://ambermirza.github.io/photoalbum
 * http://codepen.io/ambermirza/pen/vLJLbz
