@@ -3,29 +3,54 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<title>Photos of London</title> 
+<head>
+	<title>Flickr Searcher</title> 
 		
-		<!-- linking the stylesheet to the site -->
-		<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- linking the stylesheet to the site -->
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
 
-		<!-- js will load the photos to the site -->
-		<script src="flickr.js"></script>
-	</head>
+</head>
 
-	<body>
-		<p>hello world</p> <!-- making sure .io works -->
-		<div id="gallery">
-			<!-- thumbnails -->
-		</div>
+<body>
+    <div>
+        <div id = "outter">
+            <div id = "lightbox">
+            	<!-- the buttons -->
+	            <button id = "exit" onclick = "exit()" type = "button">
+	            	x
+	            </button> 
+	            <button id = "next" onclick = "next()" type = "button">
+	            	>
+	            </button> 
+	            <button id = "previous" onclick = "previous()" type = "button">
+	            	<
+	           	</button>
+	            
+	            <!-- the image -->
+	            <img id = "lightbox-image" alt = "picture">
+              	
+              	<!-- the title -->
+              	<h2 id = "title"></h2>
+
+        	</div>
+        </div>
+        
+        <h1>Flickr Searcher</h1>
+
+        <!-- the search button -->
+        <div id = "search">
+            <form onsubmit = "initialize();">
+                <h4>Search: <input id = "request" type = "text"> 
+                <input type = "submit" value = "Go"></h4>
+            </form>
+        </div>
+        
+        <!-- the thumbnails -->
+        <div id = "gridSite"></div>
 		
-		<a class="next">
-			<!-- lightbox button -->
-		</a>
-
-		<a class="previous">
-			<!-- lightbox button -->
-		</a>
-	</body>
+	<!-- js will load the photos to the site -->
+        <script src = "./main.js" type = "text/javascript"></script>
+    </div>
+</body>
 
 </html>
