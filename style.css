@@ -20,10 +20,6 @@ h1 {
   color: #369389;
 }
 
-h3 {
-  font-size: 1.8em;
-}
-
 input {
   font-size: 1em;
   outline: none;
@@ -87,36 +83,40 @@ button {
 }
 
 #exit {
+  position: absolute;
   background-color: #369389;
   color: #FFFFFF;
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   top: 0;
   left: 0;
-  font-size: 20px;
-  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 #previous {
+  position: absolute;
   background-color: #369389;
   color: #FFFFFF;
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   top: 50%;
   left: 0;
-  font-size: 20px;
-  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+
 }
 
 #next {
+  position: absolute;
   background-color: #369389;
   color: #FFFFFF;
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   top: 50%;
   right: 0;
-  font-size: 20px;
-  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 
