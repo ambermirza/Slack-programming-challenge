@@ -6,3 +6,7 @@
 # bugs
 * If search two different items, the newest "response" will be added to the bottom
   * Need to reset allpics[] each time 
+
+#demo
+* ambermirza.github.io/photoalbum
+* http://codepen.io/ambermirza/pen/vLJLbz
