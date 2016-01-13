@@ -8,5 +8,5 @@
 * Seems to be slow 
 
 #demo
-* http://codepen.io/ambermirza/pen/vLJLbz
+* http://codepen.io/ambermirza/full/vLJLbz/
 * http://ambermirza.github.io/photoalbum (not working properly right now)
