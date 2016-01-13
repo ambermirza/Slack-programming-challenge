@@ -5,7 +5,7 @@
 //div of the outside
 var div = document.getElementById("outter");
 //the image selected for lightbox
-var selectedImage = document.getElementById("lightbox-image");
+var selectedImage = document.getElementById("lightboxImage");
 //the photo's caption
 var caption = document.getElementById("title");
 //number of photo thumbnails
