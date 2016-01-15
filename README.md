@@ -9,4 +9,4 @@
 
 #demo
 * http://codepen.io/ambermirza/full/vLJLbz/
-* http://ambermirza.github.io/photoalbum (not working properly right now)
+* http://ambermirza.github.io/Slack-programming-challenge (not working properly right now)
